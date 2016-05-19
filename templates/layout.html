@@ -3,60 +3,34 @@
   <head>
     <title>{% block title %}{% endblock %}</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->    
+    <link rel="stylesheet" type="text/css" href="/static/fullPage.js-master/jquery.fullPage.css" />
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
     <!-- Global styles -->
     <link rel="stylesheet" href="/static/global.css">
 
+
   </head>
   <body>
 
-    <!-- nav -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Funcaas</a>
-        </div>
-        
-      </div>
-    </nav>
-    <!-- /nav -->
-
-    <!-- callout -->
-    {% block callout %}
-    {% endblock %}
-    <!-- /callout -->
-
     <!-- content -->
-    <div class="container content">
     {% block content %}
     {% endblock %}
-    </div>
     <!-- /content -->
 
-    <hr>
-
-    <!-- footer -->
-    <div class="container">
-      <footer>
-        <p>&copy; 2016 Functions As A Service, Inc.</p>
-      </footer>
-    </div>
-    <!-- /footer -->
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script type="text/javascript" src="/static/fullPage.js-master/vendors/jquery.easings.min.js"></script>
+
+    <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+    <script type="text/javascript" src="/static/fullPage.js-master/vendors/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript" src="/static/fullPage.js-master/jquery.fullPage.js"></script>
+
+
+    <script type="text/javascript" src="/static/global.js"></script>
   </body>
 </html>
