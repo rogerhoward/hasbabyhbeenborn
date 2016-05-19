@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Has Baby H Been Born?</title>
+  <link>http://hasbabyhbeenborn.com</link>
+  <description>We offer answers to any important question, as long as that question is 'has Baby H been born yet?'</description>
+  <item>
+    <title>Not Yet!</title>
+    <link>http://hasbabyhbeenborn.com</link>
+    <description>No, Baby H has not been born yet, please check back again later.</description>
+  </item>
+</channel>
+
+</rss>
