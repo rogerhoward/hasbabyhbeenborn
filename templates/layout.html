@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- Optional theme -->    
+    <link rel="stylesheet" type="text/css" href="/static/fullPage.js-master/jquery.fullPage.css" />
+
+
+    <!-- Global styles -->
+    <link rel="stylesheet" href="/static/global.css">
+
+
+  </head>
+  <body>
+
+    <!-- content -->
+    {% block content %}
+    {% endblock %}
+    <!-- /content -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script type="text/javascript" src="/static/fullPage.js-master/vendors/jquery.easings.min.js"></script>
+
+    <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+    <script type="text/javascript" src="/static/fullPage.js-master/vendors/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript" src="/static/fullPage.js-master/jquery.fullPage.js"></script>
+
+
+    <script type="text/javascript" src="/static/global.js"></script>
+  </body>
+</html>
