@@ -9,7 +9,7 @@ import os, json
 log = True
 debug = True
 host = '0.0.0.0'
-port = 5000
+port = '5002'
 
 project_directory = os.path.dirname(os.path.realpath(__file__))
 
