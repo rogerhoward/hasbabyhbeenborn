@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify, render_template, abort, request
 import os
 name = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
-home = Blueprint(name, __name__, template_folder='templates')
+home = Blueprint(name, __name__, template_folder='templates', static_folder='static')
 import config
 
 
