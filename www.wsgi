@@ -5,4 +5,4 @@ activate_this = os.path.join('/home/rogerhoward/.virtualenvs/hasbabyhbeenborn/bi
 execfile(activate_this, dict(__file__=activate_this))
 sys.path.append(PROJECT_DIR)
 
-from run_prod import app as application
+from server import app as application
