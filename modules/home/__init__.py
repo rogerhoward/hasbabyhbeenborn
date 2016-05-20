@@ -11,7 +11,7 @@ import config
 def root():
     print 'home'
     print config.loaded_modules
-    return render_template('home.html', modules= config.loaded_modules)
+    return render_template('home.html')
 
 
 @home.route('/<path:path>')

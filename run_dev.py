@@ -20,5 +20,5 @@ for loader, mod_name, ispkg in modules:
             if isinstance(obj, Blueprint):
                 app.register_blueprint(obj)
 
-
-app.run(debug=config.debug, host=config.host, port=config.port)
+if __name__ == "__main__":
+    app.run(debug=config.debug, host=config.host)
